@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+h1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.25px;
+    text-align: left;
+    color: #1E0E62;
+    padding-bottom: 39px;
+}
+
+.para-1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #15143966;
+    max-width: 198px;
+}
+
+.h-2 {
+    width: 100%;
+    font-family: "DM Sans", "sans-serif";
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #1E0E62;
+    padding-bottom: 32.2px;
+}
+
+.h-3 {
+    font-family: "DM Sans", sans-serif;
+    color: #1E0E62;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.h-4 {
+    font-family: "DM Sans", sans-serif;
+    color: #1E0E62;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    max-width: 235px;
+}
+
+li {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #1E0E62;
+}
+
+input {
+    /* max-width: 230px; */
+    color: #8e8d90;
+    border-radius: 100px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    outline: none;
+    border: 1px solid;
+    padding-left: 10px;
+}
+
+.svg {
+    max-width: 126px;
+    padding-top: 45px;
+}
+
+footer {
+    padding-bottom: 35px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.btn-box {
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    position: relative;
+}
+
+.para {
+    width: 100%;
+    margin-top: 39px;
+    color: #15143966;
+    text-align: center;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid rgb(126, 123, 123);
+    margin-top: 117px;
+    color: #EBEAED;
+    opacity: 50%;
+}
+
+.gap-36 {
+    gap: 36px;
+    padding-top: 45px;
+}
+
+.h-2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: left;
+    color: #1E0E62;
+    width: 235px;
+}
+
+button {
+    min-height: 40px;
+    border-radius: 100px;
+    background: #25DAC5;
+    border: none;
+    padding: 9px 26px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.justify-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #6bcc3e;
+    color: rgb(4, 4, 4);
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+@media (max-width:575.98px) {
+    .btn-box{
+        flex-direction: column;
+    }
+}
+@media (min-width:576px) {
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:768px) {
+    .col-md-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
